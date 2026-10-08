@@ -1,0 +1,18 @@
+# Logs (the script writes to %LOCALAPPDATA% by default, but just in case)
+*.log
+logs/
+
+# Local / personal copies of the script with real settings
+*.local.ps1
+*.private.ps1
+
+# MailStore data that should never be committed
+*.lock
+Data/
+
+# Editor / OS clutter
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
